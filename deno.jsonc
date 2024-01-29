@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "lock": "deno cache --lock=deno.lock --lock-write developer_deps.ts",
+    "udd": "deno run -Ar https://deno.land/x/udd/main.ts developer_deps.ts && deno task lock"
+  }
+}
