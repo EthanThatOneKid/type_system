@@ -25,11 +25,11 @@ const system: System<typeof SCHEMA> = {
   components: [
     {
       type: "deno_deploy",
-      project_name: "string",
+      project_name: "deno-deploy-project-name",
     },
     {
       type: "google_sheets",
-      sheet_id: "string",
+      sheet_id: "google-sheets-sheet-id",
     },
   ],
 };
